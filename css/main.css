@@ -1,0 +1,46 @@
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 1440px;
+  margin: 0 auto;
+}
+
+.oasis-description {
+  background-image: url("/img/Frame1.jpg");
+  width: 666px;
+}
+
+.oasis-description__logo {
+  padding-top: 64px;
+  padding-left: 72px;
+}
+
+.oasis-forms {
+  width: 774px;
+  background-color: green;
+}
+
+.oasis-description__text {
+  position: relative;
+  padding: 370px 111px 464px 82px;
+  font-size: 20px;
+  line-height: 38px;
+}
+
+.oasis-description__text::before {
+  content: url("/img/quotes.png");
+  width: 28px;
+  height: 28px;
+  position: absolute;
+  top: 330px;
+}
+
+.oasis-description__text::after {
+  content: url("/img/Vector1.png");
+  width: 33,5px;
+  position: absolute;
+  left: 484px;
+  top: 639px;
+}
+/*# sourceMappingURL=main.css.map */
